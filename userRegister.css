@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(223, 229, 233);
+    padding: 0.3rem;
+ }
+
+/* Cadastro Utilizador */
+main{ position: absolute;
+    width: 78%;
+    height: 420px;
+    background: linear-gradient(30deg,  #0077ff1f, #ff69eb1f, #ffffff,#f8fcff, #0077ff21);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 1rem;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    place-content: center;
+}
+.cadastro-utilizador{
+    position: absolute;
+    display: none;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 500px;
+    border-radius: 10px;
+    background: linear-gradient(30deg,  #0077ff1f, #ff69eb1f, #ffffffc7,#ffffffcc, #0077ff3b);
+    backdrop-filter: blur(20px);
+    transform: translate(-50%);
+    top: -5%;
+    left: 50%;
+    overflow: hidden;
+    box-shadow: 0px 0px 7px 0px #00000031;
+}
+.user-signUp-title{
+    margin: -7px auto;
+    background: linear-gradient(90deg, #061e3a, #0f5b99);
+    padding: 12px;
+    height: 35px;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+.closed{
+    position: absolute;
+    width: 15px; 
+    padding: 10px; 
+    background-color: #00000036;
+    border-radius: 50%; 
+    transform: translate(-50%);
+    top: 1%;
+    left: 97.4%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.closed:hover{
+    background-color: #ff00008a;
+    z-index: 8;
+}
+.cadastrar-utilizador{
+    width: 90%;
+    margin: -260px auto;
+    text-align: center;
+}
+.cadastrar-utilizador .label{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+.cadastrar-utilizador .user-input{
+    border: 2px solid #afc3d1;
+    border-radius: 5px;
+    outline: none;
+    width: 63%;
+    height: 35px;
+    font-size: 20px;
+    padding: 0 8px;
+    margin: auto;
+}
+.btn_cadastrar-user {
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    background-color: #3288eb;
+    border: 1px solid #0f5b99;
+    border-radius: 5px;
+    font-weight: 515;
+    margin-top: 18px;
+}
+.btn-cadastrar-user button:hover{
+    background-color: #043266;
+    border: 1px solid #061e3a;
+    color: #cee5ff;
+    font-weight: 500;
+}
