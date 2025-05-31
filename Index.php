@@ -45,12 +45,12 @@ $pdo = Conexao::getInstance()->getPDO();
                 $mail->isSMTP();
                 $mail->Host       = 'smtp.gmail.com';
                 $mail->SMTPAuth   = true;
-                $mail->Username   = 'yassermomade10@gmail.com';
-                $mail->Password   = 'gqtb dzcq frha lnlw';
+                $mail->Username   = 'seuEmail@gmail.com';
+                $mail->Password   = 'seuPassword';
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
                 $mail->Port       = 587;
 
-                $mail->setFrom('yassermomade10@gmail.com', 'Noticias');
+                $mail->setFrom('seuEmail@gmail.com', 'Noticias');
                 $mail->addAddress($dest['email'], $dest['nome']);
 
                 $mail->isHTML(true);
